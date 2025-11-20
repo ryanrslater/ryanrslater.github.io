@@ -5,9 +5,6 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://ryanrslater.github.io/post-getting-started.html</loc>
-  </url>
-  <url>
-    <loc>https://ryanrslater.github.io/post-kubernetes-lab.html</loc>
+    <loc>https://ryanrslater.github.io/post-first-serverless-platform.html</loc>
   </url>
 </urlset>

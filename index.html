@@ -86,46 +86,33 @@
     <div class="row">
       <!-- POSTS LIST -->
       <div class="col-lg-8" id="posts">
-        <h2 class="h4 mb-4">Latest Posts</h2>
+        <h2 class="h4 mb-4">Featured Post</h2>
 
-        <!-- Post Card 1 -->
-        <a href="post-getting-started.html" class="text-decoration-none text-dark">
-          <div class="card mb-4 post-card">
+        <a href="post-first-serverless-platform.html" class="text-decoration-none text-dark">
+          <div class="card mb-4 post-card border-primary">
             <div class="card-body">
-              <h3 class="h5">Why I’m Building My Own IaaS</h3>
+              <div class="d-flex align-items-center mb-2">
+                <span class="badge bg-primary me-2">Featured</span>
+                <p class="small text-muted mb-0">7 February 2025 · 5 min read</p>
+              </div>
+              <h3 class="h5">Starting My Serverless Code Runner Project</h3>
               <p class="small text-muted mb-2">
-                19 November 2025 · 6 min read ·
                 <span class="tag tag-iaas">IaaS</span>
                 <span class="tag tag-laravel">Laravel</span>
                 <span class="tag tag-k8s">Kubernetes</span>
               </p>
               <p>
-                I want a platform where users can deploy their own code and I can bill per-usage.
-                This post breaks down the vision and early architectural choices.
+                The very first entry in this journal: outlining a serverless-style platform where users upload zipped code,
+                deploy to Kubernetes, and get billed through Stripe.
               </p>
             </div>
           </div>
         </a>
 
-        <!-- Post Card 2 -->
-        <a href="post-kubernetes-lab.html" class="text-decoration-none text-dark">
-          <div class="card mb-4 post-card">
-            <div class="card-body">
-              <h3 class="h5">Setting Up My First Kubernetes Cluster</h3>
-              <p class="small text-muted mb-2">
-                20 November 2025 · 8 min read ·
-                <span class="tag tag-k8s">Kubernetes</span>
-                <span class="tag">DevOps</span>
-              </p>
-              <p>
-                Before hosting user workloads, I’m building a test cluster to learn the
-                fundamentals — networking, autoscaling, deployments, ingress, storage, and everything in between.
-              </p>
-            </div>
-          </div>
-        </a>
-
-        <!-- Add more post cards here -->
+        <h2 class="h5 mt-5 mb-3">Future Posts</h2>
+        <div class="alert alert-light border" role="alert">
+          More stories will appear here as I document each milestone of the build.
+        </div>
       </div>
 
       <!-- SIDEBAR -->
