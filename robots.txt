@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://ryanrslater.github.io/sitemap.xml
+
+Disallow: /AGENTS.md
